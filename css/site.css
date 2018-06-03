@@ -1,0 +1,21 @@
+body, html
+{
+  padding: 0;
+  margin: 0;
+
+  background: #020218;
+}
+
+canvas
+{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  transition: opacity 1s;
+
+  border-radius: 10%;
+
+  background: "gray";
+}
